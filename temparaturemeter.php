@@ -16,24 +16,46 @@
         <meta name="format-detection" content="telephone=no">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 <style type="text/css">
+
+  body{ color:#fff;
+        -webkit-border-radius: 29px;
+        border-radius: 29px;
+        background: #24398e;
+        -webkit-box-shadow: 30px 30px 30px #152254, -30px -30px 30px #3350c8;
+        box-shadow: 30px 30px 30px #152254, -30px -30px 30px #3350c8;
+  }
 		.block {
     position: absolute;color:#123;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
-    background: #ddd;
+    transform: translate(-50%, -50%);color:#fff;
+    font-size:23px;font-family:cursive;
+   
     padding: 100px;
+    -webkit-border-radius: 29px;
+border-radius: 29px;
+background: #24398e;
+-webkit-box-shadow: 30px 30px 30px #152254, -30px -30px 30px #3350c8;
+box-shadow: 30px 30px 30px #152254, -30px -30px 30px #3350c8;
 }
 
 input[type="text"] {
     display: block;
     padding: 5px;
-    margin: 12px;
+    margin:20px 0 30px;
+    -webkit-border-radius: 50px;
+border-radius: 50px;
+background: #24398e;
+-webkit-box-shadow: 12px 12px 24px #002ba7, -12px -12px 24px #003be1;
+box-shadow: 12px 12px 24px #002ba7, -12px -12px 24px #003be1;
+border: 1px solid #48dbfbc3;
 }
+
+input::placeholder{color: #fff;font-size: 18px;padding:22px;}
 
 .button {
     display: block;
-    margin: 12px;
+    margin: 20px 0 30px ;
     padding: 12px;
     background: aqua;
     border-radius: 12px;
@@ -46,7 +68,7 @@ input[type="text"] {
 		
 		  <div class="block">
 		  <form action="" method="POST">
-		     <input type="text" name="number" placeholder="Enter Your mind">
+		     <input type="text" name="number" placeholder="Enter  value">
 
 		  	 cel 
 		  	 <input type="radio" name="hasan">
